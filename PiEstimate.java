@@ -12,6 +12,7 @@ public class PiEstimate
          y = Math.random();
          if (x*x + y*y < 1) cirkel++;
          n++;
+         //forholdet mellem arealet af et kvadrat og den indskrevne cirkel pi/4 
          System.out.println(4*(double)cirkel/(double)n);
       }
    }
